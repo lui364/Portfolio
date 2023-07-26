@@ -7,7 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public active : boolean = true;
-  public menu = '';
+
+
    
   setActive(){
     this.active = !this.active;
@@ -15,5 +16,7 @@ export class AppComponent {
   
   setMenu(){
      this.active = true;
+
+    
   }
 }
